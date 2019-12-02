@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow:hidden;
+}
+header {
+    width: 100%;
+    background: black;
+    position: relative;
+    color: white;
+    z-index: 10;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+}
+.main {
+    overflow: hidden;
+    background: black;
+    height: 100%;
+}
+
+.nope {
+    display: none;
+    z-index: 0;
+}
+
+.active {
+    color: white;
+    position: relative;
+    z-index: 10;
+}
